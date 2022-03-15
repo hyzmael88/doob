@@ -66,7 +66,7 @@ const BusinessConsulting2 = () => {
 
                 {/* Start About Area  */}
                 <AboutOne />                            
-                {/* End About Area  */}
+                {/* End About Area  */} 
 
                 <Separator />                            
                 {/* Start Service Area  */}

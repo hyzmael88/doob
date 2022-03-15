@@ -9,7 +9,6 @@ const Nav = () => {
             </li>
             
             <li><Link to="/about-us">Acerca</Link></li>
-            <li><Link to="/brand">Clientes</Link></li>
 
             {/* <li className="with-megamenu"><Link to="#">Elements</Link>
                 <div className="rn-megamenu">
@@ -72,7 +71,7 @@ const Nav = () => {
                 </ul>
             </li> */}
 
-            <li><Link to="portfolio-box-layout">Portafolio</Link>
+            <li><Link to="/portfolio-three-column">Portafolio</Link>
                
             </li>
 
