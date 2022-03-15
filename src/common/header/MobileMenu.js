@@ -3,6 +3,10 @@ import Logo from "../../elements/logo/Logo";
 import Nav from './Nav';
 import { FiX } from "react-icons/fi";
 
+import logo1 from '../../assets/images/logo/JaizmoraLogoDark.png'
+import logo2 from '../../assets/images/logo/JaizmoraLogoLight.png'
+
+
 const MobileMenu = ({show, onClose}) => {
     var elements = document.querySelectorAll('.popup-mobile-menu .has-droupdown > a');
     var elementsTwo = document.querySelectorAll('.popup-mobile-menu .with-megamenu > a');
@@ -28,9 +32,9 @@ const MobileMenu = ({show, onClose}) => {
             <div className="inner">
                 <div className="header-top">
                     <Logo 
-                        image={`${process.env.PUBLIC_URL}/images/logo/logo.png`}
-                        image2={`${process.env.PUBLIC_URL}/images/logo/logo-dark.png`}
-                    />
+                    image={logo1}
+                    image2={logo2}
+                       />
                     <div className="close-menu">
                         <span className="close-button" onClick={onClose}><FiX /></span>
                     </div>
