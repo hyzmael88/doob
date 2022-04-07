@@ -4,23 +4,23 @@ import ScrollAnimation from "react-animate-on-scroll";
 const TimelineData = [
     {
         id: "1",
-        title: "Knowledge",
-        description: "Present all available features in Essentials.",
+        title: "Conocemos",
+        description: "Identificamos tus necesidades, para entenderlas y así poder resolverlas",
     },
     {
         id: "2",
-        title: "Working",
-        description: "All Feature available features in Essentials.",
+        title: "Planteamos",
+        description: "Investigamos y brindamos soluciones de valor para tu marca",
     },
     {
         id: "3",
-        title: "Solution",
-        description: "Popular Feature available features in Essentials.",
+        title: "Producimos",
+        description: "Elaboramos y recopilamos el material para dar pie a la estrategia",
     },
     {
         id: "4",
-        title: "Process",
-        description: "Latest Feature available features in Essentials.",
+        title: "Ejecutamos",
+        description: "Ponemos en marcha la estrategia en distintos medios y monitoreamos el alcance",
     },
 ]
 

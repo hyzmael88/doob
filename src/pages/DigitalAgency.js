@@ -63,30 +63,11 @@ const DigitalAgency = () => {
                 <div className="inner text-left">
                   <h4 className="subtitle">
                     <span className="theme-gradient">
-                      DIGITAL CONSULTING AGENCY
+                      SOMOS JAIZMORA
                     </span>
                   </h4>
-                  <h1 className="title display-one">Join Corporate Meeting.</h1>
-                  <ul className="list-icon">
-                    <li>
-                      <span className="icon">
-                        <FiCheck />
-                      </span>{" "}
-                      Track your teams progress with mobile app.
-                    </li>
-                    <li>
-                      <span className="icon">
-                        <FiCheck />
-                      </span>{" "}
-                      Lorem ipsum dolor sit amet consectetur adipisicing.
-                    </li>
-                    <li>
-                      <span className="icon">
-                        <FiCheck />
-                      </span>{" "}
-                      Your teams progress with mobile app.
-                    </li>
-                  </ul>
+                  <h1 className="title display-one">SOMOS LA VOZ DE TU MARCA EN LAS PLATAFORMAS</h1>
+                  
                   <div className="button-group mt--40 mt_sm--20">
                     <button
                       className="btn-default btn-icon"
@@ -118,8 +99,8 @@ const DigitalAgency = () => {
                 <SectionTitle
                   textAlign="text-center"
                   radiusRounded=""
-                  subtitle="Business Stratagy"
-                  title="Our Business Stratagy Here."
+                  subtitle="Servicios"
+                  title="Nuestros Servicios"
                   description=""
                 />
               </div>
