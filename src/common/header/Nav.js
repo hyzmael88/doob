@@ -71,7 +71,7 @@ const Nav = () => {
                 </ul>
             </li> */}
 
-            <li><Link to="/portfolio-three-column">Portafolio</Link>
+            <li><Link to="/portfolio">Portafolio</Link>
                
             </li>
 

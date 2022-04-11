@@ -11,10 +11,10 @@ const mission = () => {
                 <div className="row row--30">
                     <div className="col-lg-6">
                         <div className="mission-title">
-                            <h2 className="title">Unique Mission <br /> {" "}
+                            <h2 className="title">Unique {""}
                                 <Typed className="theme-gradient"
                                     strings={[
-                                        "Consulting.",
+                                        "Mission.",
                                         "Vission.",
                                         "Agency.",
                                     ]}
@@ -24,12 +24,13 @@ const mission = () => {
                                     loop
                                 />
                             </h2>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia quaerat dolore laboriosam ea minus dignissimos, laudantium odit officia soluta, et deleniti fugit deserunt saepe, velit sapiente obcaecati? Vitae, iusto delectus?</p>
+                            <p>No buscamos generar transacciones, sino buscamos alcanzar una RELACIÓN de equipo con nuestros clientes. No vendemos productos, vendemos ideas y emociones basadas en las marcas.</p>
 
-                            <p>Consectetur adipisicing elit. Quia quaerat dolore laboriosam ea minus dignissimos, laudantium odit officia soluta, et deleniti fugit deserunt saepe, velit sapiente obcaecati? Vitae, iusto delectus?</p>
+                            <p>Nuestra meta es marcar tendencia y posicionarnos en lo alto de la industria digital, así como convertirnos en el equipo de marketing de tu marca.
+</p>
 
                             <div className="read-more-btn mt--50">
-                                <Link className="btn-default btn-icon" to="#">Learn More <i className="icon"><FiArrowRight /></i></Link>
+                                <Link className="btn-default btn-icon" to="/contact">Conócenos <i className="icon"><FiArrowRight /></i></Link>
                             </div>
                         </div>
                     </div>

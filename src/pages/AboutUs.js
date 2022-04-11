@@ -43,8 +43,8 @@ const AboutUs = () => {
                                     <SectionTitle
                                         textAlign = "text-center"
                                         radiusRounded = ""
-                                        subtitle = "Our Awesome Client"
-                                        title = "Brand Style."
+                                        subtitle = "Clientes"
+                                        title = "Conóce a nuestros clientes:"
                                         description = ""
                                     />
                                 </div>
@@ -70,8 +70,8 @@ const AboutUs = () => {
                                     <SectionTitle
                                         textAlign = "text-center"
                                         radiusRounded = ""
-                                        subtitle = "Our Experts."
-                                        title = "Our Company Experts."
+                                        subtitle = "Expertos"
+                                        title = "Conoce a nuestros expertos"
                                         description = "We provide company and finance service for <br /> startups and company business."
                                     />
                             </div>
@@ -83,7 +83,7 @@ const AboutUs = () => {
                 <Separator /> 
 
                  {/* Start Brand Area  */}
-        <div className="rwt-brand-area pb--60 pt--30">
+        {/* <div className="rwt-brand-area pb--60 pt--30">
           <div className="container">
             <div className="row">
               <div className="col-lg-12 mt--10">
@@ -91,7 +91,7 @@ const AboutUs = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         {/* End Brand Area  */}
                
 

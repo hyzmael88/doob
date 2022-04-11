@@ -10,16 +10,24 @@ const filters = [
     },
     {
       id: 2,
-      text: "design",
+      text: "Diseño",
     },
     {
       id: 3,
-      text: "art",
+      text: "Social Media",
     },
     {
       id: 4,
-      text: "development",
-    }
+      text: "Fotografía y Video",
+    },
+    {
+        id: 5,
+        text: "Web",
+      },
+      {
+        id: 6,
+        text: "Software",
+      }
 ];
 
 const alldata = PortfolioData;

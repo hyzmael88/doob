@@ -6,10 +6,10 @@ import ScrollAnimation from "react-animate-on-scroll";
 const teamData = [
     {
         image: 'team-01',
-        name: 'Sr Janen Sara',
-        designation: 'Sr Product Designer',
-        location: 'CO Miego, AD, USA', 
-        description: 'Yes, I am a product designer. I have a passion for product design.',
+        name: 'Ismael Serrano',
+        designation: 'CEO Jaizmora',
+        location: 'CDMX, México', 
+        description: 'Technology & Analytics',
         socialNetwork: [
             {
                 icon: <FiFacebook />,
@@ -28,10 +28,10 @@ const teamData = [
     },
     {
         image: 'team-02',
-        name: 'Afsana Nila',
-        designation: 'App Developer',
-        location: 'Bangladesh', 
-        description: 'Yes, I am a product designer. I have a passion for product design.',
+        name: 'Paulina Mora',
+        designation: 'CEO Jaizmora',
+        location: 'CDMX, México', 
+        description: 'Strategy & Media Development',
         socialNetwork: [
             {
                 icon: <FiFacebook />,
@@ -50,10 +50,54 @@ const teamData = [
     },
     {
         image: 'team-03',
-        name: 'Afanan Sifa',
-        designation: 'Accounts Manager',
-        location: 'Poland', 
-        description: 'Yes, I am a product designer. I have a passion for product design.',
+        name: 'Martha Santos',
+        designation: 'Senior Designer',
+        location: 'CDMX, México', 
+        description: 'Social Media Designer',
+        socialNetwork: [
+            {
+                icon: <FiFacebook />,
+                url: '#'
+            },
+            {
+                icon: <FiTwitter />,
+                url: '#'
+            },
+            {
+                icon: <FiInstagram />,
+                url: '#'
+            },
+        ]
+        
+    },
+    {
+        image: 'team-04',
+        name: 'Óscar Sanchez',
+        designation: 'Agency Operations Manager',
+        location: 'CDMX, México', 
+        description: 'Cybernetics engineer',
+        socialNetwork: [
+            {
+                icon: <FiFacebook />,
+                url: '#'
+            },
+            {
+                icon: <FiTwitter />,
+                url: '#'
+            },
+            {
+                icon: <FiInstagram />,
+                url: '#'
+            },
+        ]
+        
+    },
+    {
+        image: 'team-04',
+        name: 'Laura Malagón',
+        designation: 'Public Relations',
+        location: 'CDMX, México', 
+        description: '',
         socialNetwork: [
             {
                 icon: <FiFacebook />,
@@ -95,11 +139,11 @@ const TeamTwo = ({column , teamStyle}) => {
                                     </span>
                                     <p className="description">{data.description}</p>
 
-                                    <ul className="social-icon social-default icon-naked mt--20" >
+                                    {/* <ul className="social-icon social-default icon-naked mt--20" >
                                         {data.socialNetwork.map((social, index) =>
                                             <li key={index}><a href={`${social.url}`}>{social.icon}</a></li>
                                         )}
-                                    </ul>
+                                    </ul> */}
                                 </figcaption>
                             </div>
                         </div>

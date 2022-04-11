@@ -8,7 +8,7 @@ import PortfolioOne from "./PortfolioOne";
 const PortfolioThreeColumn = () => {
     return (
         <>
-            <SEO title="Portfolio Three Column || Doob - React Business  Template" />
+            <SEO title="Portfolio Jaizmora" />
             <Layout>
                 
                 <div className="main-content">
@@ -19,8 +19,8 @@ const PortfolioThreeColumn = () => {
                                         <SectionTitle
                                             textAlign = "text-center"
                                             radiusRounded = ""
-                                            subtitle = "Portfolio Three Column"
-                                            title = "You can customize everything!"
+                                            subtitle = "Portfolio"
+                                            title = "Conóce nuestro portafolio:"
                                             description = ""
                                         />
                                 </div>
