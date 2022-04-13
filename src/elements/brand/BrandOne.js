@@ -1,20 +1,22 @@
 import React from 'react';
-import Logo0 from '../../../src/assets/images/clientes/logo0.png'
-import Logo1 from '../../../src/assets/images/clientes/logo1.jpeg'
-import Logo2 from '../../../src/assets/images/clientes/logo2.png'
-import Logo3 from '../../../src/assets/images/clientes/logo3.png'
-import Logo4 from '../../../src/assets/images/clientes/logo4.png'
-import Logo5 from '../../../src/assets/images/clientes/logo5.png'
-import Logo6 from '../../../src/assets/images/clientes/logo6.png'
-import Logo7 from '../../../src/assets/images/clientes/logo7.png'
-import Logo8 from '../../../src/assets/images/clientes/Logo8.png'
-import Logo9 from '../../../src/assets/images/clientes/logo9.png'
-import Logo10 from '../../../src/assets/images/clientes/logo10.png'
-import Logo11 from '../../../src/assets/images/clientes/logo11.png'
-import Logo12 from '../../../src/assets/images/clientes/logo12.png'
-import Logo13 from '../../../src/assets/images/clientes/logo13.png'
-import Logo14 from '../../../src/assets/images/clientes/logo14.jpg'
-import Logo15 from '../../../src/assets/images/clientes/logo15.png'
+import Logo0 from '../../../src/assets/images/clientes/clientes/baja.png'
+import Logo1 from '../../../src/assets/images/clientes/clientes/asador.png'
+import Logo2 from '../../../src/assets/images/clientes/clientes/bugambilia.png'
+import Logo3 from '../../../src/assets/images/clientes/clientes/cien-foto.png'
+import Logo4 from '../../../src/assets/images/clientes/clientes/asador-cuu.png'
+import Logo5 from '../../../src/assets/images/clientes/clientes/farmapiel.png'
+import Logo6 from '../../../src/assets/images/clientes/clientes/flujodigital.png'
+import Logo7 from '../../../src/assets/images/clientes/clientes/hospital-same.png'
+import Logo8 from '../../../src/assets/images/clientes/clientes/icorptti.png'
+import Logo9 from '../../../src/assets/images/clientes/clientes/incottech.png'
+import Logo10 from '../../../src/assets/images/clientes/clientes/ittiva.png'
+import Logo11 from '../../../src/assets/images/clientes/clientes/jamka.png'
+import Logo12 from '../../../src/assets/images/clientes/clientes/lupita-alvarado.png'
+import Logo13 from '../../../src/assets/images/clientes/clientes/marshall.png'
+import Logo14 from '../../../src/assets/images/clientes/clientes/mireles.png'
+import Logo15 from '../../../src/assets/images/clientes/clientes/mojarrafeliz.png'
+import Logo16 from '../../../src/assets/images/clientes/clientes/mora.png'
+import Logo17 from '../../../src/assets/images/clientes/clientes/tostaderia.png'
 
 const BrandList = [
     {
@@ -61,6 +63,15 @@ const BrandList = [
     },
     {
         image: Logo14
+    },
+    {
+        image: Logo15
+    },
+    {
+        image: Logo16
+    },
+    {
+        image: Logo17
     },
     
 ]

@@ -1,7 +1,7 @@
 import React from 'react';
 import Typed from 'react-typed';
 import {Link} from "react-router-dom";
-import Descripcion from '../../assets/images/imagenes/descripcion.png'
+import Mision from '../../assets/images/vision.png'
 
 import { FiArrowRight } from "react-icons/fi";
 import AccordionOne from '../accordion/AccordionOne';
@@ -38,7 +38,7 @@ const mission = () => {
                     </div>
                     <div className="col-lg-6 mt_md--30 mt_sm--30">
                     <div className="thumbnail">
-                            <img className="w-100" src={Descripcion} alt="About Images" />
+                            <img className="w-100" src={Mision} alt="About Images" />
                         </div>
                     </div>
                 </div>

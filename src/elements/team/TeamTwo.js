@@ -2,10 +2,14 @@ import React from 'react';
 import { FiFacebook, FiTwitter, FiInstagram, FiLinkedin } from "react-icons/fi";
 import {Link} from "react-router-dom";
 import ScrollAnimation from "react-animate-on-scroll";
+import Pau from "../../assets/images/equipo/fotopau.png"
+import Ismael from "../../assets/images/equipo/ismael.png"
+
+import Laura from "../../assets/images/equipo/laura.jpeg"
 
 const teamData = [
     {
-        image: 'team-01',
+        image: Ismael,
         name: 'Ismael Serrano',
         designation: 'CEO Jaizmora',
         location: 'CDMX, México', 
@@ -27,7 +31,7 @@ const teamData = [
        
     },
     {
-        image: 'team-02',
+        image: Pau,
         name: 'Paulina Mora',
         designation: 'CEO Jaizmora',
         location: 'CDMX, México', 
@@ -51,7 +55,7 @@ const teamData = [
     {
         image: 'team-03',
         name: 'Martha Santos',
-        designation: 'Senior Designer',
+        designation: 'Junior Designer',
         location: 'CDMX, México', 
         description: 'Social Media Designer',
         socialNetwork: [
@@ -93,7 +97,7 @@ const teamData = [
         
     },
     {
-        image: 'team-04',
+        image: Laura,
         name: 'Laura Malagón',
         designation: 'Public Relations',
         location: 'CDMX, México', 
@@ -128,7 +132,7 @@ const TeamTwo = ({column , teamStyle}) => {
                         <div className={`rn-team ${teamStyle}`}>
                             <div className="inner">
                                 <figure className="thumbnail">
-                                    <img src={`./images/team/${data.image}.jpg`} alt="Corporate React Template" />
+                                    <img src={data.image} alt="ano" />
                                 </figure>
                                 <figcaption className="content">
                                     <h2 className="title">{data.name}</h2>
