@@ -21,7 +21,7 @@ const Contact = () => {
                                         textAlign = "text-center"
                                         radiusRounded = ""
                                         subtitle = "Contact Form"
-                                        title = "Our Contact Address Here."
+                                        title = "Contactáctanos"
                                         description = ""
                                     />
                                 </div>

@@ -73,9 +73,9 @@ const DigitalAgency = () => {
                     <button
                       className="btn-default btn-icon"
                       target="_blank"
-                      href="https://themeforest.net/checkout/from_item/33571911?license=regular"
+                      href="/contacto"
                     >
-                      Purchase Now{" "}
+                      Contáctanos{" "}
                       <i className="icon">
                         <FiArrowRight />
                       </i>

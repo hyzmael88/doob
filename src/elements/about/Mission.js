@@ -17,7 +17,7 @@ const mission = () => {
                                 <Typed className="theme-gradient"
                                     strings={[
                                         "Mission.",
-                                        "Vission.",
+                                        "Vision.",
                                         "Agency.",
                                     ]}
                                     typeSpeed={80}

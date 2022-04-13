@@ -14,10 +14,10 @@ function ContactForm({props , formStyle}) {
         e.preventDefault();
         emailjs
         .sendForm(
-            'service_p4x3hv8', 
-            'template_jgfr42f', 
+            'service_s4u6j5a', 
+            'template_vdua1of', 
             e.target, 
-            'user_jrfTH2e0Ely35ZCVFdT9S'
+            'Em7V_Jy6Q7eg8LGqp'
         )
         .then((result) => {
             console.log(result.text);
