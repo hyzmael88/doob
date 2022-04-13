@@ -3,7 +3,7 @@ import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import {Link} from "react-router-dom";
 import Disenodigital from '../../assets/images/imagenes/diseno-digital.png'
 import Impreso from '../../assets/images/imagenes/impreso2.png'
-import Branding from '../../assets/images/imagenes/branding.png'
+import Branding from '../../assets/images/imagenes/branding10.png'
 import Community from '../../assets/images/imagenes/community.png'
 import Content from '../../assets/images/imagenes/content1.png'
 import Fotografia from '../../assets/images/imagenes/fotografia.png'
