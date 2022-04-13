@@ -167,7 +167,6 @@ const TabThree = () => {
                                                                                     <div className="content">
                                                                                         <h4 className="title mb--20"><Link to="#service" dangerouslySetInnerHTML={{__html: val.title}}></Link></h4>
                                                                                         <p className="description b1 color-gray mb--0" dangerouslySetInnerHTML={{__html: val.description}}></p>
-                                                                                        <Link className="btn-default btn-small" to="#service">Read More</Link>
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
@@ -198,7 +197,6 @@ const TabThree = () => {
                                                                                     <div className="content">
                                                                                         <h4 className="title mb--20"><Link to="#service" dangerouslySetInnerHTML={{__html: val.title}}></Link></h4>
                                                                                         <p className="description b1 color-gray mb--0" dangerouslySetInnerHTML={{__html: val.description}}></p>
-                                                                                        <Link className="btn-default btn-small" to="#service">Read More</Link>
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
@@ -229,7 +227,6 @@ const TabThree = () => {
                                                                                     <div className="content">
                                                                                         <h4 className="title mb--20"><Link to="#service" dangerouslySetInnerHTML={{__html: val.title}}></Link></h4>
                                                                                         <p className="description b1 color-gray mb--0" dangerouslySetInnerHTML={{__html: val.description}}></p>
-                                                                                        <Link className="btn-default btn-small" to="#service">Read More</Link>
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
@@ -260,7 +257,6 @@ const TabThree = () => {
                                                                                     <div className="content">
                                                                                         <h4 className="title mb--20"><Link to="#service" dangerouslySetInnerHTML={{__html: val.title}}></Link></h4>
                                                                                         <p className="description b1 color-gray mb--0" dangerouslySetInnerHTML={{__html: val.description}}></p>
-                                                                                        <Link className="btn-default btn-small" to="#service">Read More</Link>
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
@@ -290,7 +286,6 @@ const TabThree = () => {
                                                                                     <div className="content">
                                                                                         <h4 className="title mb--20"><Link to="#service" dangerouslySetInnerHTML={{__html: val.title}}></Link></h4>
                                                                                         <p className="description b1 color-gray mb--0" dangerouslySetInnerHTML={{__html: val.description}}></p>
-                                                                                        <Link className="btn-default btn-small" to="#service">Read More</Link>
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
@@ -320,7 +315,6 @@ const TabThree = () => {
                                                                                     <div className="content">
                                                                                         <h4 className="title mb--20"><Link to="#service" dangerouslySetInnerHTML={{__html: val.title}}></Link></h4>
                                                                                         <p className="description b1 color-gray mb--0" dangerouslySetInnerHTML={{__html: val.description}}></p>
-                                                                                        <Link className="btn-default btn-small" to="#service">Read More</Link>
                                                                                     </div>
                                                                                 </div>
                                                                             </div>

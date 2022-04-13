@@ -67,7 +67,7 @@ const DigitalAgency = () => {
                       SOMOS JAIZMORA
                     </span>
                   </h4>
-                  <h1 className="title display-one">SOMOS LA VOZ DE TU MARCA EN LAS PLATAFORMAS</h1>
+                  <h1 className="title display-one">LA VOZ DE TU MARCA EN LAS PLATAFORMAS DIGITALES</h1>
                   
                   <div className="button-group mt--40 mt_sm--20">
                     <button
