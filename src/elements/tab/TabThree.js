@@ -1,20 +1,36 @@
 import React from 'react';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import {Link} from "react-router-dom";
+import Disenodigital from '../../assets/images/imagenes/diseno-digital.png'
+import Impreso from '../../assets/images/imagenes/impreso2.png'
+import Branding from '../../assets/images/imagenes/branding.png'
+import Community from '../../assets/images/imagenes/community.png'
+import Content from '../../assets/images/imagenes/content1.png'
+import Fotografia from '../../assets/images/imagenes/fotografia.png'
+import Edicion from '../../assets/images/imagenes/edicion.png'
+
+import Sitioweb from '../../assets/images/imagenes/web.png'
+import Chatbot from '../../assets/images/imagenes/chatbot.png'
+import Apps from '../../assets/images/imagenes/apps.png'
+import Consultoria from '../../assets/images/imagenes/consultoria-software.png'
+import Software from '../../assets/images/imagenes/software.png'
+import Cableado from '../../assets/images/imagenes/cableado.png'
+
+
 
 const dataList = [
     {
-        image: '/images/service/serviice-01.jpg',
+        image: Disenodigital,
         title: 'Diseño Digital',
         description: 'Elaboración de material para social media, sitios web y publicidad digital.'
     },
     {
-        image: '/images/service/serviice-01.jpg',
+        image: Impreso,
         title: 'Diseño Impreso',
         description: 'Flyers, espectaculares, anuncios en medios impresos,etc.'
     },
     {
-        image: '/images/service/serviice-02.jpg',
+        image: Branding, 
         title: 'Branding',
         description: 'Imagen e identidad de marca'
     }
@@ -22,12 +38,12 @@ const dataList = [
 
 const dataList2 = [
     {
-        image: '/images/service/serviice-03.jpg',
+        image: Community,
         title: 'Community Management',
         description: 'Atención a comunidad en redes sociales'
     },
     {
-        image: '/images/service/serviice-04.jpg',
+        image: Content,
         title: 'Content Creator',
         description: 'Elaboración de contenido original basado en el mensaje e identidad de la marca'
     }
@@ -40,29 +56,29 @@ const dataList3 = [
     //     description: 'There are many variations variats  of passages of Lorem Ipsum available.'
     // },
     {
-        image: '/images/service/serviice-04.jpg',
+        image: Fotografia,
         title: 'Fotografía y video',
         description: 'Levantamiento de imagen en locación. De tipo Retrato o Producto.'
     },
     {
-        image: '/images/service/serviice-04.jpg',
+        image: Edicion,
         title: 'Edición de fotografía y video',
         description: 'pendiente...'
     }
 ]
 const dataList4 = [
     {
-        image: '/images/service/serviice-01.jpg',
+        image: Sitioweb,
         title: 'Sitio web',
         description: 'Arquitectura del sitio web desde el frontend hasta el backend, sitios responsive, Blogs, E-commerce, CMS, etc.'
     },
     {
-        image: '/images/service/serviice-01.jpg',
+        image: Chatbot,
         title: 'Chatbot',
         description: 'Desarrollo de Chatbot, funcional 24/7 para atender pedidos o preguntas'
     },
     {
-        image: '/images/service/serviice-02.jpg',
+        image: Apps,
         title: 'Aplicaciones móviles y webBranding',
         description: 'pendiente...'
     }
@@ -70,19 +86,19 @@ const dataList4 = [
 
 const dataList5 = [
     {
-        image: '/images/service/serviice-03.jpg',
+        image: Consultoria,
         title: 'Consultoría de software',
         description: 'Diseño de solución en implementación, optimización de operaciones y soluciones, migración de soluciones'
     },
     {
-        image: '/images/service/serviice-04.jpg',
+        image: Software,
         title: 'Diseño de software a la medida',
         description: 'Desarrollo y mantenimiento de cualquier tecnología necesaria para tu empresa'
     }
 ]
 const dataList6 = [
     {
-        image: '/images/service/serviice-03.jpg',
+        image: Cableado,
         title: 'Cableado estructurado, Voz y Datos, así como Video vigilancia',
         description: 'pendiente...'
     },
@@ -133,23 +149,14 @@ const TabThree = () => {
                                         </div>
 
                                         <div className="tab-content-panel">
-                                            <TabPanel>
+                                        <TabPanel>
                                                 <div className="rn-tab-content">
                                                     <div className="inner">
                                                         <div className="row align-items-center row--30">
-                                                            <div className="col-lg-4">
-                                                                <div className="section-title">
-                                                                    <h4 className="title">How can we help you?</h4>
-                                                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero ea sint nihil corrupti! Harum nemo eius odio.</p>
-                                                                    <div className="read-more">
-                                                                        <a className="btn-default btn-small" href="#">Read More</a>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div className="col-lg-8 mt_md--30 mt_sm--30">
+                                                            <div className="col-lg-12">
                                                                 <div className="row row--15 mt_dec--30 service-wrapper">
                                                                     {dataList.map( (val , i) => (
-                                                                        <div className="col-lg-6 col-md-6 col-sm-6 col-12" key={i}>
+                                                                        <div className="col-lg-4 col-md-6 col-sm-6 col-12" key={i}>
                                                                             <div className="card-box card-style-1 text-left">
                                                                                 <div className="inner">
                                                                                     <div className="image">
@@ -177,19 +184,10 @@ const TabThree = () => {
                                                 <div className="rn-tab-content">
                                                     <div className="inner">
                                                         <div className="row align-items-center row--30">
-                                                            <div className="col-lg-4">
-                                                                <div className="section-title">
-                                                                    <h4 className="title">Whice Service Provided?</h4>
-                                                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero ea sint nihil corrupti! Harum nemo eius odio.</p>
-                                                                    <div className="read-more">
-                                                                        <a className="btn-default btn-small" href="#">Read More</a>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div className="col-lg-8 mt_md--30 mt_sm--30">
+                                                            <div className="col-lg-12">
                                                                 <div className="row row--15 mt_dec--30 service-wrapper">
                                                                     {dataList2.map( (val , i) => (
-                                                                        <div className="col-lg-6 col-md-6 col-sm-6 col-12" key={i}>
+                                                                        <div className="col-lg-4 col-md-6 col-sm-6 col-12" key={i}>
                                                                             <div className="card-box card-style-1 text-left">
                                                                                 <div className="inner">
                                                                                     <div className="image">

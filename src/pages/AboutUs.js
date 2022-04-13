@@ -13,7 +13,7 @@ import TimelineTwo from "../elements/timeline/TimelineTwo";
 import Separator from "../elements/separator/Separator";
 
 
-import AboutOne from "../elements/about/AboutOne";
+import AboutOne2 from "../elements/about/AboutOne2";
 import BrandOne from "../elements/brand/BrandOne";
 import Mission from "../elements/about/Mission";
 import TeamTwo from '../elements/team/TeamTwo';
@@ -32,7 +32,7 @@ const AboutUs = () => {
         <Separator />
 
         {/* Start About Area  */}
-        <AboutOne />
+        <AboutOne2 />
         {/* End About Area  */}
 
         {/* Start Brand Area  */}

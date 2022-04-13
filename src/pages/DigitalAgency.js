@@ -19,6 +19,7 @@ import CircleProgress from "../elements/progressbar/CircleProgress";
 import TestimonialOne from "../elements/testimonial/TestimonialOne";
 import BlogList from "../components/blog/itemProp/BlogList";
 import BlogClassicData from "../data/blog/BlogList.json";
+import Banner from "../assets/images/imagenes/banner1.png"
 var BlogListData = BlogClassicData.slice(0, 3);
 
 const BannerData = [
@@ -54,7 +55,7 @@ const DigitalAgency = () => {
           className="slider-area slider-style-2 height-950 bg_image"
           data-black-overlay="2"
           style={{
-            backgroundImage: `url(${process.env.PUBLIC_URL}/images/bg/bg-image-5.jpg)`,
+            backgroundImage: `url(${Banner})`,
           }}
         >
           <div className="container">

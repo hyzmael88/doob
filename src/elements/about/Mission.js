@@ -1,6 +1,8 @@
 import React from 'react';
 import Typed from 'react-typed';
 import {Link} from "react-router-dom";
+import Descripcion from '../../assets/images/imagenes/descripcion.png'
+
 import { FiArrowRight } from "react-icons/fi";
 import AccordionOne from '../accordion/AccordionOne';
 
@@ -30,12 +32,14 @@ const mission = () => {
 </p>
 
                             <div className="read-more-btn mt--50">
-                                <Link className="btn-default btn-icon" to="/contact">Conócenos <i className="icon"><FiArrowRight /></i></Link>
+                                <Link className="btn-default btn-icon" to="/contact">Contáctanos <i className="icon"><FiArrowRight /></i></Link>
                             </div>
                         </div>
                     </div>
                     <div className="col-lg-6 mt_md--30 mt_sm--30">
-                        <AccordionOne customStyle="" />
+                    <div className="thumbnail">
+                            <img className="w-100" src={Descripcion} alt="About Images" />
+                        </div>
                     </div>
                 </div>
             </div>                        

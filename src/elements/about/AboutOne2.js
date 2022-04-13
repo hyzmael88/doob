@@ -1,6 +1,6 @@
 import React from 'react';
 import Typed from 'react-typed';
-import Descripcion from '../../assets/images/imagenes/descripcion.png'
+import Acercade from '../../assets/images/imagenes/acercade.png'
 
 const AboutOne = () => {
     return (
@@ -9,14 +9,14 @@ const AboutOne = () => {
                 <div className="row row--30 align-items-center">
                     <div className="col-lg-5">
                         <div className="thumbnail">
-                            <img className="w-100" src={Descripcion} alt="About Images" />
+                            <img className="w-100" src={Acercade} alt="About Images" />
                         </div>
                     </div>
 
                     <div className="col-lg-7 mt_md--40 mt_sm--40">
                         <div className="content">
                             <div className="section-title">
-                                <h2 className="title">Unique{" "}
+                                <h2 className="title">Unique {" "}
                                     <Typed className="theme-gradient"
                                         strings={[
                                             "Agency.",
@@ -30,9 +30,7 @@ const AboutOne = () => {
                                     />
                                 </h2>
                                 <p>Generamos contenido de valor, tendencias y creamos la estrategia ideal para que el mensaje de tu marca conecte con clientes potenciales con el fin de alcanzar resultados efectivos.</p>
-                                <div className="read-more-btn mt--40">
-                                    <a className="btn-default" href="/about-us"><span>Conócenos</span></a>
-                                </div>
+                                
                             </div>
                         </div>
                     </div>
