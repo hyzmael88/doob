@@ -4,6 +4,8 @@ import {Link} from "react-router-dom";
 import ScrollAnimation from "react-animate-on-scroll";
 import Pau from "../../assets/images/equipo/fotopau.png"
 import Ismael from "../../assets/images/equipo/ismael.png"
+import Oscar from "../../assets/images/equipo/oscar.jpeg"
+import Martha from "../../assets/images/equipo/martha.jpeg"
 
 import Laura from "../../assets/images/equipo/laura.jpeg"
 
@@ -53,7 +55,7 @@ const teamData = [
       
     },
     {
-        image: 'team-03',
+        image: Martha,
         name: 'Martha Santos',
         designation: 'Junior Designer',
         location: 'CDMX, México', 
@@ -75,11 +77,11 @@ const teamData = [
         
     },
     {
-        image: 'team-04',
-        name: 'Óscar Sanchez',
-        designation: 'Agency Operations Manager',
+        image: Oscar,
+        name: 'Óscar Sánchez',
+        designation: 'Senior Operations Manager',
         location: 'CDMX, México', 
-        description: 'Cybernetics engineer',
+        description: 'Business & Project Management',
         socialNetwork: [
             {
                 icon: <FiFacebook />,
