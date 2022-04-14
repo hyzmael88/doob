@@ -31,7 +31,7 @@ const AboutOne = () => {
                                 </h2>
                                 <p>Generamos contenido de valor, tendencias y creamos la estrategia ideal para que el mensaje de tu marca conecte con clientes potenciales con el fin de alcanzar resultados efectivos.</p>
                                 <div className="read-more-btn mt--40">
-                                    <a className="btn-default" href="/about-us"><span>Conócenos</span></a>
+                                    <a className="btn-default" href="about-us"><span>Conócenos</span></a>
                                 </div>
                             </div>
                         </div>

@@ -44,7 +44,7 @@ const AboutUs = () => {
                                         textAlign = "text-center"
                                         radiusRounded = ""
                                         subtitle = "Clientes"
-                                        title = "Conóce a nuestros clientes:"
+                                        title = "Conóce a algunos de nuestros clientes:"
                                         description = ""
                                     />
                                 </div>
