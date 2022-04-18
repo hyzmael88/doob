@@ -20,7 +20,7 @@ const PortfolioThreeColumn = () => {
                                             textAlign = "text-center"
                                             radiusRounded = ""
                                             subtitle = "Portfolio"
-                                            title = "Conóce nuestro portafolio:"
+                                            title = "Conóce un poco de nuestro portafolio:"
                                             description = ""
                                         />
                                 </div>
