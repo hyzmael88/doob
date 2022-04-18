@@ -13,19 +13,23 @@ const filters = [
       text: "Diseño",
     },
     {
-      id: 3,
+        id: 3,
+        text: "Logos",
+      },
+    {
+      id: 4,
       text: "Social Media",
     },
     {
-      id: 4,
+      id: 5,
       text: "Fotografía y Video",
     },
     {
-        id: 5,
+        id: 6,
         text: "Web",
       },
       {
-        id: 6,
+        id: 7,
         text: "Software",
       }
 ];
