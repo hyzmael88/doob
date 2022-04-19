@@ -9,7 +9,7 @@ const SectionTitle = ({subtitle, title, description, textAlign, radiusRounded}) 
             animateIn="fadeInUp"
             animateOut="fadeInOut"
             animateOnce={true}>
-                <h4 className={`subtitle ${radiusRounded}`}><span className="theme-gradient" dangerouslySetInnerHTML={{__html: subtitle}}></span></h4>
+                <h4 className={`subtitle  ${radiusRounded}`}><span className="theme-gradient " dangerouslySetInnerHTML={{__html: subtitle}}></span></h4>
             </ScrollAnimation>
             
             <ScrollAnimation 

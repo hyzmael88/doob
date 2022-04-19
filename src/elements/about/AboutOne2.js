@@ -29,7 +29,7 @@ const AboutOne = () => {
                                         loop
                                     />
                                 </h2>
-                                <p>Generamos contenido de valor, tendencias y creamos la estrategia ideal para que el mensaje de tu marca conecte con clientes potenciales con el fin de alcanzar resultados efectivos.</p>
+                                <h4>Generamos contenido de valor, tendencias y creamos la estrategia ideal para que el mensaje de tu marca conecte con clientes potenciales con el fin de alcanzar resultados efectivos.</h4>
                                 
                             </div>
                         </div>

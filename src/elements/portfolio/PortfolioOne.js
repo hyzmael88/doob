@@ -37,7 +37,7 @@ const filters = [
 const alldata = PortfolioData;
 const PortfolioOne = ({ Column }) => {
     const [getAllItems] = useState(alldata);
-    const [dataVisibleCount, setDataVisibleCount] = useState(6);
+    const [dataVisibleCount, setDataVisibleCount] = useState(70);
     const [dataIncrement] = useState(6) ;
     const [noMorePost, setNoMorePost] = useState(false);
     const [activeFilter, setActiveFilter] = useState("");
