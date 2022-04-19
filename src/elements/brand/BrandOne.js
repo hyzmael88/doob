@@ -70,9 +70,6 @@ const BrandList = [
     {
         image: Logo16
     },
-    {
-        image: Logo17
-    },
     
 ]
 

@@ -63,7 +63,7 @@ const dataList3 = [
     {
         image: Edicion,
         title: 'Edición de fotografía y video',
-        description: 'pendiente...'
+        description: 'Edición del material recopilado acorde al branding de la empresa.'
     }
 ]
 const dataList4 = [
@@ -79,8 +79,8 @@ const dataList4 = [
     },
     {
         image: Apps,
-        title: 'Aplicaciones móviles y webBranding',
-        description: 'pendiente...'
+        title: 'Aplicaciones móviles y aplicaciones web',
+        description: 'Desarrollo de aplicaciones moviles o aplicaciones web acorde a las necesidades de la empresa.'
     }
 ]
 
@@ -99,8 +99,8 @@ const dataList5 = [
 const dataList6 = [
     {
         image: Cableado,
-        title: 'Cableado estructurado, Voz y Datos, así como Video vigilancia',
-        description: 'pendiente...'
+        title: 'Cableado estructurado',
+        description: 'Voz y Datos, Video vigilancia, etc.'
     },
 ]
 

@@ -122,10 +122,10 @@ const PortfolioOne = ({ Column }) => {
                             disabled={noMorePost ? "disabled" : null}
                         >
                             {noMorePost ? (
-                            "No Item Here"
+                            "No hay más"
                             ) : (
                             <span>
-                                Load More 
+                                Ver más 
                                 <span className="icon">
                                     <FaSpinner />
                                 </span>

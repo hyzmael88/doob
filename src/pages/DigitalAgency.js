@@ -2,7 +2,7 @@ import React from "react";
 import SEO from "../common/SEO";
 import { Link } from "react-router-dom";
 import HeaderTwo from "../common/header/HeaderTwo";
-import FooterFour from "../common/footer/FooterFour";
+import FooterThree from "../common/footer/FooterThree";
 import AboutOne from "../elements/about/AboutOne";
 import TabThree from "../elements/tab/TabThree";
 import TimelineTwo from "../elements/timeline/TimelineTwo";
@@ -70,16 +70,7 @@ const DigitalAgency = () => {
                   <h1 className="title display-one">LA VOZ DE TU MARCA EN LAS PLATAFORMAS DIGITALES</h1>
                   
                   <div className="button-group mt--40 mt_sm--20">
-                    <button
-                      className="btn-default btn-icon"
-                      target="_blank"
-                      href="/contacto"
-                    >
-                      Contáctanos{" "}
-                      <i className="icon">
-                        <FiArrowRight />
-                      </i>
-                    </button>
+                    
                   </div>
                 </div>
               </div>
@@ -129,7 +120,7 @@ const DigitalAgency = () => {
         </div>
         {/* End Call To Action Area  */}
 
-        <FooterFour />
+        <FooterThree />
       </main>
     </>
   );

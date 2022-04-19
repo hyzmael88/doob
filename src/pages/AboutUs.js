@@ -2,7 +2,7 @@ import React from "react";
 import SEO from "../common/SEO";
 import HeaderTopNews from "../common/header/HeaderTopNews";
 import HeaderTwo from "../common/header/HeaderTwo";
-import FooterFour from "../common/footer/FooterFour";
+import FooterThree from "../common/footer/FooterThree";
 import BrandThree from "../elements/brand/BrandThree";
 import AboutFour from "../elements/about/AboutFour";
 import ServiceOne from "../elements/service/ServiceOne";
@@ -96,7 +96,7 @@ const AboutUs = () => {
                
 
 
-        <FooterFour />
+        <FooterThree />
       </main>
     </>
   );

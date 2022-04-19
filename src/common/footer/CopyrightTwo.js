@@ -10,25 +10,23 @@ const CopyrightTwo = () => {
                     <div className="col-lg-4 col-md-7 col-sm-12 col-12">
                         <div className="copyright-left">
                             <ul className="ft-menu link-hover">
-                                <li><a href="#">Privacy Policy</a></li>
-                                <li><a href="#">Terms And Condition</a></li>
-                                <li><a href="/contact">Contact Us</a></li>
+                                {/* <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">Terms And Condition</a></li> */}
+                                <li><a href="/contact">Contáctanos</a></li>
                             </ul>
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-5 mt_sm--20">
                         <div className="copyright-center text-center">
                             <ul className="social-icon social-default color-lessdark justify-content-center">
-                                <li><Link to="facebook.com"><FiFacebook /></Link></li>
-                                <li><Link to="twitter.com"><FiTwitter /></Link></li>
-                                <li><Link to="instagram.com"><FiInstagram /></Link></li>
-                                <li><Link to="linkdin.com"><FiLinkedin /></Link></li>
+                                <li><a href='https://www.facebook.com/jaizmorateam'><FiFacebook /></a></li>
+                                <li><a href="https://www.instagram.com/jaizmora/"><FiInstagram /></a></li>
                             </ul>
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-12 col-sm-12 col-12 mt_md--20 mt_sm--20">
                         <div className="copyright-right text-center text-lg-right">
-                            <p className="copyright-text">Copyright All rights reserved © {new Date().getFullYear()} Doob React Template.</p>
+                            <p className="copyright-text">Copyright All rights reserved © {new Date().getFullYear()} Jaizmora Digital Media.</p>
                         </div>
                     </div>
                 </div>
