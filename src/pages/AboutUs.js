@@ -72,7 +72,7 @@ const AboutUs = () => {
                                         radiusRounded = ""
                                         subtitle = "Expertos"
                                         title = "Conoce a nuestros expertos"
-                                        description = "We provide company and finance service for <br /> startups and company business."
+                                        description = ""
                                     />
                             </div>
                         </div>
