@@ -1,6 +1,8 @@
 import React from 'react';
 import Typed from 'react-typed';
 import Descripcion from '../../assets/images/imagenes/descripcion.png'
+import {Link} from "react-router-dom";
+
 
 const AboutOne = () => {
     return (
@@ -31,7 +33,7 @@ const AboutOne = () => {
                                 </h2>
                                 <h4>Generamos contenido de valor, tendencias y creamos la estrategia ideal para que el mensaje de tu marca conecte con clientes potenciales con el fin de alcanzar resultados efectivos.</h4>
                                 <div className="read-more-btn mt--40">
-                                    <a className="btn-default" href="about-us"><span>Conócenos</span></a>
+                                    <Link className="btn-default" to="/about-us"><span>Conócenos</span></Link>
                                 </div>
                             </div>
                         </div>

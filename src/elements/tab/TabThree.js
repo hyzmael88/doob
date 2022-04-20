@@ -160,12 +160,12 @@ const TabThree = () => {
                                                                             <div className="card-box card-style-1 text-left">
                                                                                 <div className="inner">
                                                                                     <div className="image">
-                                                                                        <Link to="#service">
+                                                                                        
                                                                                             <img src={`${val.image}`} alt="card Images" />
-                                                                                        </Link>
+                                                                                    
                                                                                     </div>
                                                                                     <div className="content">
-                                                                                        <h4 className="title mb--20"><Link to="#service" dangerouslySetInnerHTML={{__html: val.title}}></Link></h4>
+                                                                                        <h4 className="title mb--20">{val.title}</h4>
                                                                                         <p className="description b1 color-gray mb--0" dangerouslySetInnerHTML={{__html: val.description}}></p>
                                                                                     </div>
                                                                                 </div>
@@ -190,12 +190,12 @@ const TabThree = () => {
                                                                             <div className="card-box card-style-1 text-left">
                                                                                 <div className="inner">
                                                                                     <div className="image">
-                                                                                        <Link to="#service">
+                                                                                        
                                                                                             <img src={`${val.image}`} alt="card Images" />
-                                                                                        </Link>
+                                                                                        
                                                                                     </div>
                                                                                     <div className="content">
-                                                                                        <h4 className="title mb--20"><Link to="#service" dangerouslySetInnerHTML={{__html: val.title}}></Link></h4>
+                                                                                        <h4 className="title mb--20">{val.title}</h4>
                                                                                         <p className="description b1 color-gray mb--0" dangerouslySetInnerHTML={{__html: val.description}}></p>
                                                                                     </div>
                                                                                 </div>
@@ -220,12 +220,12 @@ const TabThree = () => {
                                                                             <div className="card-box card-style-1 text-left">
                                                                                 <div className="inner">
                                                                                     <div className="image">
-                                                                                        <Link to="#service">
+                                                                                        
                                                                                             <img src={`${val.image}`} alt="card Images" />
-                                                                                        </Link>
+                                                                                        
                                                                                     </div>
                                                                                     <div className="content">
-                                                                                        <h4 className="title mb--20"><Link to="#service" dangerouslySetInnerHTML={{__html: val.title}}></Link></h4>
+                                                                                        <h4 className="title mb--20">{val.title}</h4>
                                                                                         <p className="description b1 color-gray mb--0" dangerouslySetInnerHTML={{__html: val.description}}></p>
                                                                                     </div>
                                                                                 </div>
@@ -250,12 +250,11 @@ const TabThree = () => {
                                                                             <div className="card-box card-style-1 text-left">
                                                                                 <div className="inner">
                                                                                     <div className="image">
-                                                                                        <Link to="#service">
                                                                                             <img src={`${val.image}`} alt="card Images" />
-                                                                                        </Link>
+                                                                                        
                                                                                     </div>
                                                                                     <div className="content">
-                                                                                        <h4 className="title mb--20"><Link to="#service" dangerouslySetInnerHTML={{__html: val.title}}></Link></h4>
+                                                                                        <h4 className="title mb--20">{val.title}</h4>
                                                                                         <p className="description b1 color-gray mb--0" dangerouslySetInnerHTML={{__html: val.description}}></p>
                                                                                     </div>
                                                                                 </div>
@@ -279,12 +278,11 @@ const TabThree = () => {
                                                                             <div className="card-box card-style-1 text-left">
                                                                                 <div className="inner">
                                                                                     <div className="image">
-                                                                                        <Link to="#service">
                                                                                             <img src={`${val.image}`} alt="card Images" />
-                                                                                        </Link>
+                                                                                        
                                                                                     </div>
                                                                                     <div className="content">
-                                                                                        <h4 className="title mb--20"><Link to="#service" dangerouslySetInnerHTML={{__html: val.title}}></Link></h4>
+                                                                                        <h4 className="title mb--20">{val.title}</h4>
                                                                                         <p className="description b1 color-gray mb--0" dangerouslySetInnerHTML={{__html: val.description}}></p>
                                                                                     </div>
                                                                                 </div>
@@ -308,12 +306,11 @@ const TabThree = () => {
                                                                             <div className="card-box card-style-1 text-left">
                                                                                 <div className="inner">
                                                                                     <div className="image">
-                                                                                        <Link to="#service">
                                                                                             <img src={`${val.image}`} alt="card Images" />
-                                                                                        </Link>
+                                                                                        
                                                                                     </div>
                                                                                     <div className="content">
-                                                                                        <h4 className="title mb--20"><Link to="#service" dangerouslySetInnerHTML={{__html: val.title}}></Link></h4>
+                                                                                        <h4 className="title mb--20">{val.title}</h4>
                                                                                         <p className="description b1 color-gray mb--0" dangerouslySetInnerHTML={{__html: val.description}}></p>
                                                                                     </div>
                                                                                 </div>
