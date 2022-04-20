@@ -78,7 +78,7 @@ const teamData = [
     },
     {
         image: Oscar,
-        name: 'Óscar Sánchez',
+        name: 'Oscar Sánchez',
         designation: 'Senior Operations Manager',
         location: 'CDMX, México', 
         description: 'Business & Project Management',
