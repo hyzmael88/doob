@@ -12,7 +12,7 @@ const CopyrightTwo = () => {
                             <ul className="ft-menu link-hover">
                                 {/* <li><a href="#">Privacy Policy</a></li>
                                 <li><a href="#">Terms And Condition</a></li> */}
-                                <li><a href="/contact">Contáctanos</a></li>
+                                <li><Link to="/contact">Contáctanos</Link></li>
                             </ul>
                         </div>
                     </div>
