@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import {HashRouter, Switch, Route} from 'react-router-dom';
 import PageScrollTop from './components/pageToTop/PageScrollTop'
 
 // Pages import Here 
@@ -74,7 +74,7 @@ import './assets/scss/style.scss';
 
 const App = () => {
     return (
-        <Router>
+        <HashRouter>
             <PageScrollTop>
                 <Switch>
                     <Route path={`${process.env.PUBLIC_URL + "/Splash"}`} exact component={Splash}/>
@@ -141,7 +141,7 @@ const App = () => {
 
                 </Switch>
             </PageScrollTop>
-        </Router>
+        </HashRouter>
     )
 }
 
