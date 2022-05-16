@@ -100,6 +100,28 @@ const teamData = [
         
     },
     {
+        image: Daniel,
+        name: 'Daniel González',
+        designation: 'Video Editor',
+        location: 'Chihuahua, México', 
+        description: 'Social Media Video Editor',
+        socialNetwork: [
+            {
+                icon: <FiFacebook />,
+                url: '#'
+            },
+            {
+                icon: <FiTwitter />,
+                url: '#'
+            },
+            {
+                icon: <FiInstagram />,
+                url: '#'
+            },
+        ]
+        
+    },
+    {
         image: Laura,
         name: 'Laura Malagón',
         designation: 'Public Relations',
@@ -121,28 +143,7 @@ const teamData = [
         ]
         
     },
-    {
-        image: Daniel,
-        name: 'Daniel González',
-        designation: 'Video Editor',
-        location: 'Chihuahua, México', 
-        description: '',
-        socialNetwork: [
-            {
-                icon: <FiFacebook />,
-                url: '#'
-            },
-            {
-                icon: <FiTwitter />,
-                url: '#'
-            },
-            {
-                icon: <FiInstagram />,
-                url: '#'
-            },
-        ]
-        
-    },
+    
 ]
 
 const TeamTwo = ({column , teamStyle}) => {
