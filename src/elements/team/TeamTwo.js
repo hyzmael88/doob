@@ -8,6 +8,7 @@ import Oscar from "../../assets/images/equipo/oscar.jpeg"
 import Martha from "../../assets/images/equipo/martha.jpeg"
 
 import Laura from "../../assets/images/equipo/laura.jpeg"
+import Daniel from "../../assets/images/equipo/daniel.jpeg"
 
 const teamData = [
     {
@@ -103,6 +104,28 @@ const teamData = [
         name: 'Laura Malagón',
         designation: 'Public Relations',
         location: 'CDMX, México', 
+        description: '',
+        socialNetwork: [
+            {
+                icon: <FiFacebook />,
+                url: '#'
+            },
+            {
+                icon: <FiTwitter />,
+                url: '#'
+            },
+            {
+                icon: <FiInstagram />,
+                url: '#'
+            },
+        ]
+        
+    },
+    {
+        image: Daniel,
+        name: 'Daniel González',
+        designation: 'Video Editor',
+        location: 'Chihuahua, México', 
         description: '',
         socialNetwork: [
             {
