@@ -7,7 +7,7 @@ const PortfolioItem = ({ portfolio }) => {
             <div className="inner">
                 <div className="thumbnail">
                     <figure className="card-image">
-                            <img className="img-fluid" src={portfolio.portfolioImage} alt="Portfolio-01"/>
+                            <img className="img-fluid" style={{width:"350px", height: "350px", objectFit: "contain"}} src={portfolio.portfolioImage} alt="Portfolio-01"/>
                         
                     </figure>
                 </div>

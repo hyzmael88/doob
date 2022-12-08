@@ -56,28 +56,6 @@ const teamData = [
       
     },
     {
-        image: Martha,
-        name: 'Martha Santos',
-        designation: 'Junior Designer',
-        location: 'CDMX, México', 
-        description: 'Social Media Designer',
-        socialNetwork: [
-            {
-                icon: <FiFacebook />,
-                url: '#'
-            },
-            {
-                icon: <FiTwitter />,
-                url: '#'
-            },
-            {
-                icon: <FiInstagram />,
-                url: '#'
-            },
-        ]
-        
-    },
-    {
         image: Oscar,
         name: 'Oscar Sánchez',
         designation: 'Senior Operations Manager',
