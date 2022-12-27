@@ -13,36 +13,44 @@
 
     {
         "id": 2,
-        "portfolioImage": "./images/portfolio/icorptti.png",
-        "image": "images/portfolio/portfolio-02.jpg",
-        "title": "Icorptti",
-        "subtitle": "Awesome portfolio",
-        "date": "01 March 2021",
-        "client": "Icorptti",
-        "category": "web"
-    },
-
-    {
-        "id": 3,
-        "portfolioImage": "./images/portfolio/incottech.png",
-        "image": "images/portfolio/portfolio-03.jpg",
-        "title": "Incottech",
+        "portfolioImage": "./images/portfolio/Hoobank.png",
+        "image": "images/portfolio/portfolio-07.jpg",
+        "title": "Hoobank",
+        "url":"https://hoobank-jaizmora.netlify.app/",
         "subtitle": "Awesome portfolio",
         "date": "01 March 2021",
         "client": "Rainbow Themes",
         "category": "web"
+        
     },
+
+    {
+        "id": 6,
+        "portfolioImage": "./images/portfolio/netflix.png",
+        "image": "./images/portfolio/netflix.png",
+        "title": "Netflix",
+        "url":"https://netflixtailwind.netlify.app",
+        "subtitle": "Awesome portfolio",
+        "date": "01 March 2021",
+        "client": "Rainbow Themes",
+        "category": "web"  
+    },
+
+    
 
     {
         "id": 4,
-        "portfolioImage": "./images/portfolio/ittiva.png",
-        "image": "images/portfolio/portfolio-04.jpg",
-        "title": "Ittiva",
+        "portfolioImage": "./images/portfolio/jinx-store.png",
+        "image": "images/portfolio/portfolio-05.jpg",
+        "title": "Jinx",
+        "url":"https://jinx-store.netlify.app/",
         "subtitle": "Awesome portfolio",
         "date": "01 March 2021",
         "client": "Rainbow Themes",
         "category": "web"
     },
+
+    
 
     {
         "id": 5,
@@ -57,40 +65,6 @@
     },
     {
         "id": 6,
-        "portfolioImage": "./images/portfolio/netflix.png",
-        "image": "./images/portfolio/netflix.png",
-        "title": "Netflix",
-        "url":"https://netflixtailwind.netlify.app",
-        "subtitle": "Awesome portfolio",
-        "date": "01 March 2021",
-        "client": "Rainbow Themes",
-        "category": "web"  
-    },
-    {
-        "id": 7,
-        "portfolioImage": "./images/portfolio/jinx-store.png",
-        "image": "images/portfolio/portfolio-05.jpg",
-        "title": "Jinx",
-        "url":"https://jinx-store.netlify.app/",
-        "subtitle": "Awesome portfolio",
-        "date": "01 March 2021",
-        "client": "Rainbow Themes",
-        "category": "web"
-    },
-
-    {
-        "id": 8,
-        "portfolioImage": "./images/portfolio/laptop.png",
-        "image": "images/portfolio/portfolio-06.jpg",
-        "title": "Laptop Fix & Buy",
-        "subtitle": "Awesome portfolio",
-        "date": "01 March 2021",
-        "client": "Rainbow Themes",
-        "category": "web"
-    },
-
-    {
-        "id": 9,
         "portfolioImage": "./images/portfolio/lyriks.png",
         "image": "images/portfolio/portfolio-07.jpg",
         "title": "Lyriks",
@@ -101,8 +75,55 @@
         "category": "web"
         
     },
+   
+    {
+        "id": 7,
+        "portfolioImage": "./images/portfolio/ittiva.png",
+        "image": "images/portfolio/portfolio-04.jpg",
+        "title": "Ittiva",
+        "subtitle": "Awesome portfolio",
+        "date": "01 March 2021",
+        "client": "Rainbow Themes",
+        "category": "web"
+    },
+    
+
+    {
+        "id": 8,
+        "portfolioImage": "./images/portfolio/icorptti.png",
+        "image": "images/portfolio/portfolio-02.jpg",
+        "title": "Icorptti",
+        "subtitle": "Awesome portfolio",
+        "date": "01 March 2021",
+        "client": "Icorptti",
+        "category": "web"
+    },
+    {
+        "id": 9,
+        "portfolioImage": "./images/portfolio/incottech.png",
+        "image": "images/portfolio/portfolio-03.jpg",
+        "title": "Incottech",
+        "subtitle": "Awesome portfolio",
+        "date": "01 March 2021",
+        "client": "Rainbow Themes",
+        "category": "web"
+    },
     {
         "id": 10,
+        "portfolioImage": "./images/portfolio/Codex.png",
+        "image": "images/portfolio/portfolio-07.jpg",
+        "title": "Codex AI",
+        "url":"https://codex-jaizmora.vercel.app/",
+        "subtitle": "Awesome portfolio",
+        "date": "01 March 2021",
+        "client": "Rainbow Themes",
+        "category": "web"
+        
+    },
+
+   
+    {
+        "id": 11,
         "portfolioImage": "./images/portfolio/diseno/AM.png",
         "image": "images/portfolio/portfolio-01.jpg",
         "title": "Andrea Mireles",
@@ -113,7 +134,7 @@
          
     },
     {
-        "id": 11,
+        "id": 12,
         "portfolioImage": "./images/portfolio/diseno/DraRubi.png",
         "image": "images/portfolio/portfolio-01.jpg",
         "title": "Dra Rubi",
@@ -123,17 +144,8 @@
          "category": "diseño"
          
     },
-    {
-        "id": 12,
-        "portfolioImage": "./images/portfolio/diseno/Formula1.png",
-        "image": "images/portfolio/portfolio-01.jpg",
-        "title": "Formula 1",
-        "subtitle": "Awesome portfolio",
-        "date": "01 March 2021",
-        "client": "Rainbow Themes",
-         "category": "diseño"
-         
-    },
+    
+    
     {
         "id": 13,
         "portfolioImage": "./images/portfolio/diseno/Glow.png",
@@ -885,6 +897,28 @@
         "date": "01 March 2021",
         "client": "Rainbow Themes",
         "category": "social media"
+         
+    },
+    {
+        "id": 81,
+        "portfolioImage": "./images/portfolio/laptop.png",
+        "image": "images/portfolio/portfolio-06.jpg",
+        "title": "Laptop Fix & Buy",
+        "subtitle": "Awesome portfolio",
+        "date": "01 March 2021",
+        "client": "Rainbow Themes",
+        "category": "web"
+    },
+   
+    {
+        "id": 82,
+        "portfolioImage": "./images/portfolio/diseno/Formula1.png",
+        "image": "images/portfolio/portfolio-01.jpg",
+        "title": "Formula 1",
+        "subtitle": "Awesome portfolio",
+        "date": "01 March 2021",
+        "client": "Rainbow Themes",
+         "category": "diseño"
          
     }
 
