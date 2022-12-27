@@ -1,6 +1,5 @@
 import PropTypes from "prop-types";
 import React from 'react'
-import Jaizmora from '../assets/images/Jaizmora.jpg'
 
 
 const SEO = ({ title }) => {
