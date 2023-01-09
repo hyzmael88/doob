@@ -46,7 +46,7 @@ const BannerData = [
 const DigitalAgency = () => {
   return (
     <>
-      <SEO title="Jaizmora Digital Media" />
+      <SEO title="Jaizmora Digital Media" /> 
       <main className="page-wrapper">
         <HeaderTwo btnStyle="btn-small" HeaderSTyle="header-transparent" />
 
